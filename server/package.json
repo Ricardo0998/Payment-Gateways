@@ -1,0 +1,20 @@
+{
+  "name": "server-payments",
+  "version": "0.0.1",
+  "description": "Implementation of the Openpay and Conekta payment gateways with Angular 13 and Nodejs v16.14.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "conekta": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "openpay": "^1.0.5"
+  }
+}
